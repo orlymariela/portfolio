@@ -27,7 +27,7 @@ const Navbar = () => {
         <ul>
           <li className='py-3 text-4xl'>About</li>
           <li className='py-3 text-4xl'>Skills</li>
-          <li className='py-3 text-4xl'>Works</li>
+          <li className='py-3 text-4xl'>Work</li>
           <li className='py-3 text-4xl'>Contact</li>
         </ul>
       </div>
@@ -35,13 +35,13 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] letf-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-101px] hover:ml-[-17px]  hover:bg-blue-800 duration-300'>
-            <a className='flex justify-between items-center w-full text-gray-300 ' href=''>Linkedin <FaLinkedin size={30}/></a>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='https://www.linkedin.com/in/orlysantiago/'>Linkedin <FaLinkedin size={30}/></a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-101px] hover:ml-[-17px]  hover:bg-[#333333] duration-300'>
-            <a className='flex justify-between items-center w-full text-gray-300 ' href=''>Github <FaGithub size={30}/></a>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='https://github.com/orlymariela'>Github <FaGithub size={30}/></a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-101px] hover:ml-[-17px] hover:bg-[#146739] duration-300'>
-            <a className='flex justify-between items-center w-full text-gray-300 ' href=''>Email <HiOutlineMail size={30}/></a>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='omss1336@gmail.com'>Email <HiOutlineMail size={30}/></a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-101px] hover:ml-[-17px] hover:bg-[#565f69] duration-300'>
             <a className='flex justify-between items-center w-full text-gray-300 ' href=''>Resume < BsFillPersonLinesFill size={30}/></a>
