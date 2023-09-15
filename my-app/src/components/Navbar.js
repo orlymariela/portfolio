@@ -8,6 +8,7 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
+  console.log('Estado de nav:', nav);
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#27272a] text-gray-300 text-1xl'>
       <div>
@@ -15,7 +16,7 @@ const Navbar = () => {
       </div>
 
       <ul className='hidden md:flex'>
-        <li> <Link to='home' smooth={true} duration={500}>
+        <li><Link to='home' smooth={true} duration={500}>
           Home
         </Link></li>
         <li> <Link to='about' smooth={true} duration={500}>
@@ -30,8 +31,7 @@ const Navbar = () => {
         <li>
           <Link to='contact' smooth={true} duration={500}>
             Contact
-          </Link>
-        </li>
+          </Link></li>
       </ul>
       {/*hamburguer*/}
       <div onClick={handleClick} className='md:hidden z-10'>
@@ -46,18 +46,25 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='py-3 text-4xl'>
-          {' '}
+            {' '}
             <Link onClick={handleClick} to='about' smooth={true} duration={500}>
               About
             </Link></li>
           <li className='py-3 text-4xl'>
-          {' '}
+            {' '}
             <Link onClick={handleClick} to='work' smooth={true} duration={500}>
               Work
             </Link>
           </li>
           <li className='py-3 text-4xl'>
-          {' '}
+            {' '}
+            <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+
+          <li className='py-3 text-4xl'>
+            {' '}
             <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
               Contact
             </Link>
