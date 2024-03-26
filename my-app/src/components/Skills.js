@@ -11,10 +11,10 @@ import tailwind from './assets/tailwind.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full min-h-screen bg-[#27272a] text-gray-300'>
+    <div name='skills' className='w-full min-h-screen bg-[#27272a] text-gray-300 pt-10 '>
       <div className='max-w-[1000px] mx-auto px-4 flex-col justify-center w-full h-full'>
-        <div>
-          <p className='text-4xl text-white border-b-4 inline mt-5 '>Skills</p>
+        <div className='flex flex-col justify-center items-center pt-9'>
+          <p className='text-4xl text-white border-b-4'>Skills</p>
           <p className='py-6'>These are technologies I've a worked with</p>
         </div>
         <div className='w-full grid grid-cols-4 sm:grid-cols-4 gap-4 text-center py-8'>
