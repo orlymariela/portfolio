@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
     <div id='home' className='w-full h-screen bg-[#27272a] flex justify-center'>
-  <div className='max-w-[1000px] ml-10 md:px-8 px-6 py-10 flex flex-col justify-center h-full '>
+  <div className='max-w-[1000px] ml-10 md:px-8 px-6 pt-10 flex flex-col justify-center h-full '>
     <div className='grid grid-flow-col md:ml-0 mt-2'>
     <div className='col-span-5 gap-3'>
         <div className='max-w-[100px] h-[100px] md:max-w-[200px] md:h-[200px] md:ml-10 md:my-10 mt-14'>

@@ -87,7 +87,7 @@ const Navbar = () => {
             <a className='flex justify-between items-center w-full text-gray-300 ' href='https://github.com/orlymariela'><FaGithub size={30} />Github</a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-101px] hover:ml-[-90px] hover:bg-[#F2901A] duration-300'>
-            <a className='flex justify-between items-center w-full text-gray-300 ' href='mailto:omss1336@gmail.com'><HiOutlineMail size={30} />Email </a>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='mailto:orly.frontdeveloper@gmail.com'><HiOutlineMail size={30} />Email </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-101px] hover:ml-[-90px] hover:bg-[#565f69] duration-300'>
             <a className='flex justify-between items-center w-full text-gray-300 ' href='/'>< BsFillPersonLinesFill size={30} />Resume </a>
