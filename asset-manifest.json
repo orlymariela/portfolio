@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1d1f1e71.css",
-    "main.js": "/portfolio/static/js/main.efd994ae.js",
+    "main.css": "/portfolio/static/css/main.75253024.css",
+    "main.js": "/portfolio/static/js/main.cc601061.js",
     "static/media/mytinerary.jpg": "/portfolio/static/media/mytinerary.d0b315f1b38ad9cd49ba.jpg",
     "static/media/petshop.JPG": "/portfolio/static/media/petshop.d95c98db766c28a8bc23.JPG",
     "static/media/cybertruck.avif": "/portfolio/static/media/cybertruck.c9fde32a93305b8b2516.avif",
@@ -15,11 +15,11 @@
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.1d1f1e71.css.map": "/portfolio/static/css/main.1d1f1e71.css.map",
-    "main.efd994ae.js.map": "/portfolio/static/js/main.efd994ae.js.map"
+    "main.75253024.css.map": "/portfolio/static/css/main.75253024.css.map",
+    "main.cc601061.js.map": "/portfolio/static/js/main.cc601061.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d1f1e71.css",
-    "static/js/main.efd994ae.js"
+    "static/css/main.75253024.css",
+    "static/js/main.cc601061.js"
   ]
 }
