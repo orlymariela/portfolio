@@ -11,13 +11,13 @@ import tailwind from './assets/tailwind.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full min-h-screen bg-[#27272a] text-gray-300 pt-10 '>
-      <div className='max-w-[1000px] mx-auto px-4 flex-col justify-center w-full h-full'>
-        <div className='flex flex-col justify-center items-center pt-9'>
+    <div name='skills' className='w-full min-h-screen bg-[#27272a] text-gray-300'>
+      <div className='max-w-[1000px] mx-auto px-4 flex-col justify-center w-full h-full pt-8'>
+        <div className='flex flex-col justify-center items-center pt-7'>
           <p className='text-4xl text-white border-b-4'>Skills</p>
           <p className='py-6'>These are technologies I've a worked with</p>
         </div>
-        <div className='w-full grid grid-cols-4 sm:grid-cols-4 gap-4 text-center py-8'>
+        <div className='w-full grid grid-cols-4 sm:grid-cols-4 gap-4 text-center pt-8'>
           <div className='shadow-md shadow-[#202022] hover:scale-110 duration-300'>
             <img className="w-20 mx-auto" src={html} alt='html'></img>
             <p className='my-4'>HTML</p>

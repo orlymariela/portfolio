@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
   console.log('Estado de nav:', nav);
   return (
-    <div className='fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#27272a] text-gray-300 text-1xl'>
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#27272a] text-gray-300 text-1xl'>
        <div>
         {/*<img src={logo} alt='logo' style={{width: '30px'}}></img>*/}
       </div>
@@ -56,19 +56,18 @@ const Navbar = () => {
             <Link onClick={handleClick} to='about' smooth={true} duration={500}>
               About
             </Link></li>
+            <li className='py-3 text-4xl cursor-pointer hover:text-[#F2910A]'>
+            {' '}
+            <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
           <li className='py-3 text-4xl cursor-pointer hover:text-[#F2910A]'>
             {' '}
             <Link onClick={handleClick} to='work' smooth={true} duration={500}>
               Work
             </Link>
           </li>
-          <li className='py-3 text-4xl cursor-pointer hover:text-[#F2910A]'>
-            {' '}
-            <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-
           <li className='py-3 text-4xl cursor-pointer hover:text-[#F2910A]'>
             {' '}
             <Link onClick={handleClick} to='contact' smooth={true} duration={500}>

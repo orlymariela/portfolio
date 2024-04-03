@@ -1,3 +1,28 @@
+# Portafolio Personal
+
+## Índice
+
+- [Introducción](#introducción)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Características](#características)
+- [Dependencias](#dependencias)
+- [Configuración](#configuración)
+- [Documentación](#documentación)
+- [Ejemplos](#ejemplos)
+- [Colaboración](#colaboración)
+- [Licencia](#licencia)
+
+## Introducción
+
+Este proyecto es un portafolio personal desarrollado utilizando las tecnologías React, JavaScript, y TailwindCSS para el diseño. Su finalidad es proporcionar un espacio donde pueda mostrar mi currículum vitae, destacar algunas soft skills, y ofrecerme para colaboraciones en proyectos. Además, sirve como una herramienta para demostrar mis habilidades a potenciales empleadores en el sector tecnológico.
+
+Al ser un proyecto de código abierto, está diseñado para operar dentro de un entorno Node.js, lo que permite su fácil uso, modificación y distribución por otros desarrolladores.
+
+## Instalación
+
+Para instalar y ejecutar este proyecto en tu sistema, asegúrate de tener Node.js instalado. Luego, sigue estos pasos:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -67,4 +92,67 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Uso
+
+Para correr el proyecto en tu entorno local, utiliza el siguiente comando:
+
+```bash
+npm start
+```
+
+Este comando iniciará el servidor de desarrollo y abrirá automáticamente el proyecto en tu navegador predeterminado.
+
+## Características
+
+- **Currículum Vitae**: Una sección dedicada a mi experiencia laboral, educación y habilidades.
+- **Soft Skills**: Destaca mis habilidades interpersonales y de comunicación.
+- **Colaboración en Proyectos**: Información sobre cómo otros pueden colaborar conmigo en futuros proyectos.
+- **Diseño Responsivo**: Asegura una buena visualización en diferentes dispositivos y tamaños de pantalla.
+
+## Dependencias
+
+Este proyecto utiliza varias dependencias clave:
+
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **TailwindCSS**: Un framework de CSS para estilizar el sitio.
+- **React Icons**: Biblioteca de íconos que se pueden utilizar en React.
+
+## Configuración
+
+No se requiere configuración adicional para el uso básico del proyecto. Sin embargo, puedes personalizar TailwindCSS o agregar componentes React según sea necesario.
+
+## Documentación
+
+Para más detalles sobre cómo trabajar con React, TailwindCSS, o React Icons, consulta sus documentaciones oficiales:
+
+- [React](https://reactjs.org/docs/getting-started.html)
+- [TailwindCSS](https://tailwindcss.com/docs)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+## Ejemplos
+ {/*Social media*/}
+      <div className='hidden lg:flex fixed flex-col top-[25%] right-0'>
+        <ul>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-101px] hover:ml-[-90px]  hover:bg-blue-800 duration-300'>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='https://www.linkedin.com/in/orlysantiago/'><FaLinkedin size={30} />Linkedin</a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-101px] hover:ml-[-90px]  hover:bg-[#333333] duration-300'>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='https://github.com/orlymariela'><FaGithub size={30} />Github</a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-101px] hover:ml-[-90px] hover:bg-[#F2901A] duration-300'>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='mailto:orly.frontdeveloper@gmail.com'><HiOutlineMail size={30} />Email </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-101px] hover:ml-[-90px] hover:bg-[#565f69] duration-300'>
+            <a className='flex justify-between items-center w-full text-gray-300 ' href='/'>< BsFillPersonLinesFill size={30} />Resume </a>
+          </li>
+        </ul>
+
+      </div>
+
+## Colaboración
+
+Si deseas colaborar en este proyecto, por favor, considera hacer un fork del repositorio y enviar tus pull requests. También puedes abrir issues para discutir cambios o nuevas ideas.
+
+## Licencia
+
+Este proyecto se distribuye bajo la Licencia MIT, lo que permite su uso, modificación y distribución libremente. Para más información, consulta el archivo `LICENSE` en este repositorio.
